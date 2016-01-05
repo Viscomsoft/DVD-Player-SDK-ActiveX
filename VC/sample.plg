@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sample - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/sample.res" /d "NDEBUG" /d "_AFXDLL" "C:\installer\dvdplayer\VC\sample.rc"" 
+Creating temporary file "C:\Users\jimmy\AppData\Local\Temp\RSP5294.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/sample.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\installer\dvdplayer\VC\dvdplayer.cpp"
+"C:\installer\dvdplayer\VC\sample.cpp"
+"C:\installer\dvdplayer\VC\sampleDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\jimmy\AppData\Local\Temp\RSP5294.tmp" 
+Creating temporary file "C:\Users\jimmy\AppData\Local\Temp\RSP52A5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/sample.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\installer\dvdplayer\VC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\jimmy\AppData\Local\Temp\RSP52A5.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/sample.pdb" /machine:I386 /out:"Release/sample.exe"  .\Release\dvdplayer.obj .\Release\sample.obj .\Release\sampleDlg.obj .\Release\StdAfx.obj .\Release\sample.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dvdplayer.cpp
+sample.cpp
+sampleDlg.cpp
+C:\installer\dvdplayer\VC\sampleDlg.cpp(460) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\installer\dvdplayer\VC\sampleDlg.cpp(461) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\installer\dvdplayer\VC\sampleDlg.cpp(666) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\installer\dvdplayer\VC\sampleDlg.cpp(671) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\installer\dvdplayer\VC\sampleDlg.cpp(676) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\installer\dvdplayer\VC\sampleDlg.cpp(681) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+sample.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
