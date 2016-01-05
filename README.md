@@ -6,9 +6,7 @@ Viscomsoft DVD Player SDK ActiveX help windows developer to add DVD playback to 
 Install Viscomsoft DVD SDK ActiveX from http://www.viscomsoft.com/products/dvdplayer
 
 #Highlights
-Support  audio and video playback features such as play, stop, resume, rewind, fast forward, and reverse playback.
-
-Support for DVD menu user interaction.
+Support audio and video playback features such as play, stop, resume, rewind, fast forward, and reverse playback.
 
 Support for DVD menu user interaction.
 
@@ -24,6 +22,6 @@ Programmatically select specific menu button and activate it.
 
 Change the brightness, contrast, hue, saturation of video.
 
-ompatible with any programming language that supports ActiveX (Adobe Director, Access, Visual C++ , VB.Net, c#, Visual Basic , Visual Foxpro, Delphi, .Net, etc.)
+Compatible with any programming language that supports ActiveX (Adobe Director, Access, Visual C++ , VB.Net, c#, Visual Basic , Visual Foxpro, Delphi, .Net, etc.)
 
 Royalty free distribution of the OCX file.
